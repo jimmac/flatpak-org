@@ -70,6 +70,7 @@ All our code is freely available, with no contributor agreement required. Volunt
 | Mailing list: | `flatpak@lists.freedesktop.org` |
 | Private mailing list for security issues: | `flatpak-security@lists.freedesktop.org` |
 | Matrix: | `#flatpak` on [Matrix.org](https://matrix.org) |
+| Twitter: | [FlatpakApps](https://twitter.com/FlatpakApps) |
 | GitHub: | [`github.com/flatpak`](https://github.com/flatpak) |
 {:.moviecredits}
 
