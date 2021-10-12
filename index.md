@@ -1,43 +1,94 @@
 ---
 layout: default
 ---
-![Pixels](assets/splash.png){:.full.pixels}
+![Pixels](assets/flatpak.gif){:.full.pixels}
 
 
-[OS Component Template](https://github.com/jimmac/os-component-website) is a project that aims to greatly simplify creating a  website for your project. It aims to let you write simple markdown pages and deploy the simple jekyll project to [gitlab](https://gitlab.org) or [github](https://github.com).
+[Flatpak](https://github.com/flatpak/flatpak) is a next-generation technology for building and distributing desktop applications on Linux
  
-Edit a bit of metadata and tweak some of the included graphics and have a site up in minutes!
 
 
-- Proper favicon for modern browsers and Apple device icons
-- Twitter, Facebook and other social media meta cards for easy sharing. Try [Share Preview](https://flathub.org/apps/details/com.rafaelmardojai.SharePreview) to test.
-- Local copy of the amazing [Inter font](https://rsms.me/inter/). No slowdowns pulling from external hosting.
-- Mobile friendly, dark variant included.
+Flatpak changes app distribution for the better. Advantages include:
+
+- **Built for every distro.** Create one app and distribute it to the entire Linux desktop market.
+- **Stable platforms**. Runtimes provide platforms of common libraries that you can depend on.
+- **Consistent environments**. Develop and test your application in an environment that’s identical to the one users have.
+- **Full control over dependencies**. Flatpak makes it easy to bundle your own libraries as part of your app.
+- **Easy build tools**. Flatpak’s build tools are simple and easy to use, and come with a [full set of documentation](https://docs.flatpak.org).
+- **Future-proof builds**. Flatpak apps continue to be compatible with new versions of Linux distributions.
+
+Learn how to [get started in 5 minutes](https://docs.flatpak.org/en/latest/getting-started.html), learn how to [distribute your app as a flatpak](https://docs.flatpak.org/en/latest/).
 
 
-## Setup
+## Quick Setup
 
-The process of setting up the site locally consists of:
+Most Linux distributions come with Flatpak enabled. To get started, all you need to do is enable *Flathub*, which is the best way to get Flatpak apps. Just download and install the [Flathub repository file](https://flathub.org/repo/flathub.flatpakrepo). 
 
-- Install ruby [gem bundler](). On Fedora/in the [Toolbx](https://containertoolbx.org) you do:
+Clicking on the above link should get you going in GNOME and KDE, but you can also enable Flathub manually in the terminal:
 
 ```
-toolbox enter
-sudo dnf install rubygem-bundler
-cd os-component-website
-bundle install
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 
-- Edit the [Jekyll](https://jekyllrb.com/) config file --`_config.yml`.
-- Replace or edit all the graphics. I recommend using [Inkscape](https://inkscape.org). If you want to shave off some kB out of the SVGs, use [svgo](https://github.com/svg/svgo).
+### Specific Distro Instructions
 
-- Test the site locally:
-```
-bundle exec jekyll s
-```
+- [Alpine](setup-alpine)
+- Arch
+- Ataraxia Linux
+- CentOS
+- Chrome OS
+- Clear Linux
+- Debian
+- Deepin
+- elementary OS
+- Endless OS (version 3 and higher)
+- Fedora
+- Future OS
+- Gentoo
+- Kubuntu
+- Linux Mint
+- Mageia
+- Manjaro
+- NixOS
+- openSUSE
+- Pardus
+- Pisi GNU/Linux
+- Pop!_OS
+- PureOS
+- Raspberry Pi OS
+- Red Hat Enterprise Linux
+- Solus
+- SulinOS
+- [Ubuntu](setup-ubuntu)
+- Void Linux
+- Zorin OS
 
-- `git commit` your changes and push to your remote repo for automatic deployment. There is an included `.gitlab-ci.yml` that should be easy to adjust to your gitlab hosting situation. For github pages situation, [see these instructions](https://pages.github.com/). 
+## Looking for Apps?
 
-Alternatively you can be wild and edit the site directly on github using the remote VSCode editor by pressing `.` after cloning the repo. Right in the browser. It's insane.
+Regardless of what Linux distro you're using, head over to [Flathub](https://flathub.org) and install the newest apps for Linux!
 
+## About Us
+
+Flatpak is developed by an independent community, made up of contributors, volunteers and supporting organizations. It is a true upstream open source project, dedicated to providing technology and services that can be used by all, with no vendor lock-in. We have strong links to other Free Software projects, including the Freedesktop project.
+
+All our code is freely available, with no contributor agreement required. Volunteers and contributing organizations are welcome, as equal partners. 
+
+## Contact
+
+| | |
+--- | --- 
+| Mailing list: | `flatpak@lists.freedesktop.org` |
+| Private mailing list for security issues: | `flatpak-security@lists.freedesktop.org` |
+| Matrix: | `#flatpak` on [Matrix.org](https://matrix.org) |
+| GitHub: | `github.com/flatpak` |
+{:.moviecredits}
+
+## See Also
+- [Blog posts about Flatpak](blog-posts)
+- [Press Information](press)
+- [Flatpak History](history)
+
+
+<!--
 Written with love using [Apostrophe](https://flathub.org/apps/details/org.gnome.gitlab.somas.Apostrophe).
+-->
