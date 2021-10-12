@@ -223,8 +223,20 @@ footer {
 tbody td {
   vertical-align: top;
 }
-
-table.moviecredits tr td:first-child { text-align: right; padding-right: 1rem; }
+table.moviecredits tr td { 
+  padding-bottom: 0.5rem;
+  min-width: 5rem;
+}
+table.moviecredits tr td:first-child {
+  font-weight: bold;
+  font-size: 80%;
+  opacity: 0.8;
+  vertical-align: top;
+  padding-top: 4px;
+  text-align: right;
+  padding-right: 1rem;
+  min-width: 8rem;
+  }
 
 /* Github Code Highlighting */
 .highlight table td { padding: 5px; }
