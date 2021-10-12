@@ -10,8 +10,8 @@ We are very happy to answer questions from journalists and tech writers. Intervi
 
 | | |
  --- | --- 
-| 20 August 2018 | [Flatpak 1.0 released, Ready for Prime Time](press/2018-08-20-flatpak-1.0/) |
-| 21 June 2016 | [Announcing Flatpak – Next Generation Linux Applications](press/2016-06-21-flatpak-released/) |
+| 20 August 2018 | [Flatpak 1.0 released, Ready for Prime Time](2018-08-20-flatpak-1.0/) |
+| 21 June 2016 | [Announcing Flatpak – Next Generation Linux Applications](2016-06-21-flatpak-released/) |
 {:.moviecredits}
 
 
