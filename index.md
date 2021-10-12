@@ -40,17 +40,17 @@ Learn how to [get started in 5 minutes](https://docs.flatpak.org/en/latest/getti
 - [Manjaro](setup/manjaro)
 - [NixOS](setup/nixos)
 - [openSUSE](setup/opensuse)
-- Pardus
-- Pisi GNU/Linux
-- Pop!_OS
-- PureOS
+- [Pardus](setup/pardus)
+- [Pisi GNU/Linux](setup/pisi)
+- [Pop!_OS](setup/pop)
+- [PureOS](setup/pureos)
 - Raspberry Pi OS
 - Red Hat Enterprise Linux
 - Solus
-- SulinOS
+- [SulinOS](setup/sulinos)
 - [Ubuntu](setup/ubuntu)
-- Void Linux
-- Zorin OS
+- [Void Linux](setup/void)
+- [Zorin OS](setup/zorinos)
 {:.distros}
 
 ## Looking for Apps?
