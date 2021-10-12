@@ -14,7 +14,7 @@ Flatpak changes app distribution for the better. Advantages include:
 - **Full control over dependencies**. Flatpak makes it easy to bundle your own libraries as part of your app.
 - **Easy build tools**. Flatpak’s build tools are simple and easy to use, and come with a [full set of documentation](https://docs.flatpak.org).
 - **Future-proof builds**. Flatpak apps continue to be compatible with new versions of Linux distributions.
-
+{:.features}
 
 Learn how to [get started in 5 minutes](https://docs.flatpak.org/en/latest/getting-started.html), learn how to [distribute your app as a flatpak](https://docs.flatpak.org/en/latest/).
 
