@@ -157,6 +157,10 @@ img {
     image-rendering: pixelated; 
   }
 
+ul.distros {
+  column-count: 2;
+  column-gap: 3rem;;
+}
 
 /* Layout */
 .container {

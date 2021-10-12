@@ -32,10 +32,10 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 
 ### Specific Distro Instructions
 
-- [Alpine](setup-alpine)
-- Arch
-- Ataraxia Linux
-- CentOS
+- [Alpine](setup/alpine)
+- [Arch](setup/arch)
+- [Ataraxia Linux](setup/ataraxia)
+- [CentOS](setup/centos)
 - Chrome OS
 - Clear Linux
 - Debian
@@ -59,9 +59,10 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 - Red Hat Enterprise Linux
 - Solus
 - SulinOS
-- [Ubuntu](setup-ubuntu)
+- [Ubuntu](setup/ubuntu)
 - Void Linux
 - Zorin OS
+{:.distros}
 
 ## Looking for Apps?
 
