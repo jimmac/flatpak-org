@@ -15,6 +15,16 @@ We are very happy to answer questions from journalists and tech writers. Intervi
 {:.moviecredits}
 
 
+## Graphics and Logo
+
+The Flatpak logo is licensed Creative Commons Attribution 3.0 and can be [downloaded here](flatpak-logos.zip).
+
+
+## Contact
+
+Press queries, including requests for comments and interviews can be directed to [press@flatpak.org](mailto:press@flatpak.org).
+
+
 <!--
 Written with love using [Apostrophe](https://flathub.org/apps/details/org.gnome.gitlab.somas.Apostrophe).
 -->
