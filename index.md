@@ -40,11 +40,11 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 - [Deepin](setup/deepin)
 - [elementary OS](setup/elementary)
 - [Endless OS](setup/endless)
-- Fedora
-- Future OS
-- Gentoo
-- Kubuntu
-- Linux Mint
+- [Fedora & Fedora Silverblue](setup/fedora)
+- [Future OS](setup/futureos)
+- [Gentoo](setup/gentoo)
+- [Kubuntu](setup/kubuntu)
+- [Linux Mint](setup/mint)
 - Mageia
 - Manjaro
 - NixOS
