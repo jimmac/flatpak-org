@@ -4,9 +4,7 @@ layout: default
 ![Pixels](assets/flatpak.gif){:.full.pixels}
 
 
-[Flatpak](https://github.com/flatpak/flatpak) is a next-generation technology for building and distributing desktop applications on Linux
- 
-
+[Flatpak](https://github.com/flatpak/flatpak) is a next-generation technology for building and distributing desktop applications on Linux.
 
 Flatpak changes app distribution for the better. Advantages include:
 
@@ -36,12 +34,12 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 - [Arch](setup/arch)
 - [Ataraxia Linux](setup/ataraxia)
 - [CentOS](setup/centos)
-- Chrome OS
-- Clear Linux
-- Debian
-- Deepin
-- elementary OS
-- Endless OS (version 3 and higher)
+- [Chrome OS](setup/chromeos)
+- [Clear Linux](setup/clearlinux)
+- [Debian](setup/debian)
+- [Deepin](setup/deepin)
+- [elementary OS](setup/elementary)
+- [Endless OS](setup/endless)
 - Fedora
 - Future OS
 - Gentoo
@@ -81,7 +79,7 @@ All our code is freely available, with no contributor agreement required. Volunt
 | Mailing list: | `flatpak@lists.freedesktop.org` |
 | Private mailing list for security issues: | `flatpak-security@lists.freedesktop.org` |
 | Matrix: | `#flatpak` on [Matrix.org](https://matrix.org) |
-| GitHub: | `github.com/flatpak` |
+| GitHub: | [`github.com/flatpak`](https://github.com/flatpak) |
 {:.moviecredits}
 
 ## See Also
