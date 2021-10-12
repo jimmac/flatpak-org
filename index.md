@@ -44,9 +44,9 @@ Learn how to [get started in 5 minutes](https://docs.flatpak.org/en/latest/getti
 - [Pisi GNU/Linux](setup/pisi)
 - [Pop!_OS](setup/pop)
 - [PureOS](setup/pureos)
-- Raspberry Pi OS
-- Red Hat Enterprise Linux
-- Solus
+- [Raspberry Pi OS](setup/raspberry)
+- [Red Hat Enterprise Linux](setup/rhel)
+- [Solus](setup/solus)
 - [SulinOS](setup/sulinos)
 - [Ubuntu](setup/ubuntu)
 - [Void Linux](setup/void)
