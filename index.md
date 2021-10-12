@@ -15,20 +15,11 @@ Flatpak changes app distribution for the better. Advantages include:
 - **Easy build tools**. Flatpak’s build tools are simple and easy to use, and come with a [full set of documentation](https://docs.flatpak.org).
 - **Future-proof builds**. Flatpak apps continue to be compatible with new versions of Linux distributions.
 
+
 Learn how to [get started in 5 minutes](https://docs.flatpak.org/en/latest/getting-started.html), learn how to [distribute your app as a flatpak](https://docs.flatpak.org/en/latest/).
 
 
 ## Quick Setup
-
-Most Linux distributions come with Flatpak enabled. To get started, all you need to do is enable *Flathub*, which is the best way to get Flatpak apps. Just download and install the [Flathub repository file](https://flathub.org/repo/flathub.flatpakrepo). 
-
-Clicking on the above link should get you going in GNOME and KDE, but you can also enable Flathub manually in the terminal:
-
-```
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-```
-
-### Specific Distro Instructions
 
 - [Alpine](setup/alpine)
 - [Arch](setup/arch)
@@ -45,10 +36,10 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 - [Gentoo](setup/gentoo)
 - [Kubuntu](setup/kubuntu)
 - [Linux Mint](setup/mint)
-- Mageia
-- Manjaro
-- NixOS
-- openSUSE
+- [Mageia](setup/mageia)
+- [Manjaro](setup/manjaro)
+- [NixOS](setup/nixos)
+- [openSUSE](setup/opensuse)
 - Pardus
 - Pisi GNU/Linux
 - Pop!_OS
